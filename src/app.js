@@ -63,7 +63,7 @@ app.get("/products", (req, res) => {
     }
 
     res.json({
-      message: "list of products",
+      message: "list of players",
       data: rows,
     });
   });
